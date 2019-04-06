@@ -5,5 +5,5 @@ const void * _Nullable swift_getTypeByMangledNameInContext(
                         const char *typeNameStart,
                         int typeNameLength,
                         const void *context,
-                        const void * const *genericArgs) 
+                        const void * const *genericArgs); 
 #endif
