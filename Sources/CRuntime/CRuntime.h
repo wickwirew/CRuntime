@@ -2,8 +2,9 @@
 #define cruntime_h
 
 const void * _Nullable swift_getTypeByMangledNameInContext(
-                        const char *typeNameStart,
+                        const char * _Nullable typeNameStart,
                         int typeNameLength,
-                        const void *context,
-                        const void * const *genericArgs); 
+                        const void * _Nullable context,
+                        const void * _Nullable const * _Nullable genericArgs);
+
 #endif
