@@ -9,7 +9,7 @@ const void * _Nullable swift_getTypeByMangledNameInContext(
 
 const id _Nullable swift_allocObject(
                     const void * _Nullable type,
-                    int32_t requiredSize,
-                    int32_t requiredAlignmentMask)
+                    int requiredSize,
+                    int requiredAlignmentMask)
 
 #endif
