@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/wickwirew/CRuntime.git", :tag => s.version }
     s.source_files  = 'Sources/CRuntime/*.h'
     s.module_map = "Sources/CRuntime/module.modulemap"
-    s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/CRuntime', 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CRuntime' }
+    s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/CRuntime' }
 end
