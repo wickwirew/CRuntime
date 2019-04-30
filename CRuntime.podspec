@@ -5,10 +5,12 @@ Pod::Spec.new do |s|
     s.description  = <<-DESC
     C++ bridge for Runtime
     DESC
-    s.homepage     = "https://github.com/wickwirew/Runtime"
+    s.homepage     = "https://github.com/wickwirew/CRuntime"
     s.license      = "MIT"
     s.author       = { "Wesley Wickwire" => "wickwirew@gmail.com" }
     s.platform     = :ios, "9.0"
     s.source       = { :git => "https://github.com/wickwirew/CRuntime.git", :tag => s.version }
-    s.source_files  = 'Sources/**/*'
+    s.source_files  = 'Sources/CRuntime/CRuntime.h'
+    s.module_map = "Sources/CRuntime/module.modulemap"
+    s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/CRuntime', 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CRuntime' }
 end
