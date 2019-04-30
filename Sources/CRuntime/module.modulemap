@@ -1,4 +1,5 @@
-module CRuntime {
+framework module CRuntime {
     header "CRuntime.h"
     export *
+    module * { export * }
 }
