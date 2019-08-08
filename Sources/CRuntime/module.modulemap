@@ -1,4 +1,6 @@
-module CRuntime {
-    header "CRuntime.h"
-    export *
+framework module CRuntime {
+  umbrella header "CRuntime-umbrella.h"
+  
+  export *
+  module * { export * }
 }
