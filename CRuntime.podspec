@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
     s.author       = { "Wesley Wickwire" => "wickwirew@gmail.com" }
     s.platform     = :ios, "9.0"
     s.source       = { :git => "https://github.com/wickwirew/CRuntime.git", :tag => s.version }
-    s.source_files  = 'Sources/**/*'
+    s.source_files  = 'Sources/**/*.h'
 end
